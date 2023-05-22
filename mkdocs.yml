@@ -1,0 +1,264 @@
+site_name: cource
+nav:
+    - 毛中特:
+        - 毛中特/index.md
+        - 毛中特/0.导论.md
+        - 毛中特/1.毛泽东思想及其历史地位.md
+        - 毛中特/2.新民主主义革命理论.md
+        - 毛中特/3.社会主义改造理论.md
+        - 毛中特/4.社会主义建设道路初步探索的理论成果.md
+        - 毛中特/5.中国特色社会主义理论体系的形成发展.md
+        - 毛中特/6.邓小平理论.md
+        - 毛中特/7.三个代表 重要思想.md
+        - 毛中特/8.科学发展观.md
+    - 软件项目管理:
+        - 软件项目管理\1.概论.md
+        - 软件项目管理\2.项目评价&项目管理.md
+        - 软件项目管理\3.项目策划概述.md
+        - 软件项目管理\4.选择合适的项目方法.md
+        - 软件项目管理\5.软件工作量估计.md
+        - 软件项目管理\6.活动策划.md
+        - 软件项目管理\7.风险管理.md
+        - 软件项目管理\8.资源分配.md
+        - 软件项目管理\9.监督与控制.md
+        - 软件项目管理\10.管理合同.md
+        - 软件项目管理\11.人员管理.md
+        - 软件项目管理\12.团队管理.md
+        - 软件项目管理\13.软件质量.md
+        - 软件项目管理\MISC.md
+    - 软件项目管理1:
+        - 软件项目管理1\1.概述.md
+        - 软件项目管理1\10.软件项目团队计划.md
+        - 软件项目管理1\11.软件项目风险计划.md
+        - 软件项目管理1\12.软件项目合同计划.md
+        - 软件项目管理1\13.项目集成计划执行控制.md
+        - 软件项目管理1\14.项目核心计划执行控制.md
+        - 软件项目管理1\15.项目附注计划执行控制.md
+        - 软件项目管理1\16.项目结束过程.md
+        - 软件项目管理1\17.基于敏捷平台的软件项目实践.md
+        - 软件项目管理1\2.项目确立.md
+        - 软件项目管理1\3.生存期模型.md
+        - 软件项目管理1\4.软件项目范围计划——需求管理.md
+        - 软件项目管理1\5.软件项目范围计划——任务分解.md
+        - 软件项目管理1\6.软件项目成本计划.md
+        - 软件项目管理1\7.软件项目进度计划.md
+        - 软件项目管理1\8.软件项目质量计划.md
+        - 软件项目管理1\9.软件配置管理计划.md
+extra_css:
+    - res/extra.css
+extra_javascript:
+    - res/extra.js
+
+    - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+copyright: Copyright &copy; 2022 - 2023 travis
+
+# repo_url: @
+# repo_name: @
+
+theme:
+    name: material
+    # custom_dir: overrides
+
+    palette:
+        - media: "(prefers-color-scheme)"
+          primary: red
+          accent: red
+          toggle:
+            icon: material/brightness-auto
+            name: 切换到暗模式
+        - media: "(prefers-color-scheme: light)"
+          primary: green
+          accent: green
+          scheme: default 
+          toggle:
+            icon: material/brightness-7
+            name: 切换到默认模式
+        - media: "(prefers-color-scheme: dark)"
+          primary: blue
+          accent: blue
+          scheme: slate
+          toggle:
+            icon: material/brightness-4
+            name: 切换到亮模式
+
+    font:
+        text: Roboto
+        code: Roboto Mono
+
+    language: zh
+    direction: ltr
+
+    logo: https://ts1.cn.mm.bing.net/th?id=ODLS.bd20350f-9908-4430-a998-9fe44afeb819&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2
+    favicon: https://ts1.cn.mm.bing.net/th?id=ODLS.bd20350f-9908-4430-a998-9fe44afeb819&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2
+    icon:
+        logo: octicons/heart-fill-24
+
+        repo: fontawesome/brands/github
+        edit: material/pencil
+        view: material/eye
+
+
+        admonition:
+            note: fontawesome/solid/note-sticky
+            abstract: fontawesome/solid/book
+            info: fontawesome/solid/circle-info
+            tip: fontawesome/solid/bullhorn
+            success: fontawesome/solid/check
+            question: fontawesome/solid/circle-question
+            warning: fontawesome/solid/triangle-exclamation
+            failure: fontawesome/solid/bomb
+            danger: fontawesome/solid/skull
+            bug: fontawesome/solid/robot
+            example: fontawesome/solid/flask
+            quote: fontawesome/solid/quote-left
+
+
+
+
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.sections
+        # - navigation.expand
+        - navigation.prune
+        - navigation.indexes
+        - toc.follow
+        # - toc.integrate
+        - navigation.top
+
+        - search.suggest
+        - search.highlight
+        - search.share
+
+        - header.autohide
+
+        - navigation.footer
+
+        - content.action.edit
+        - content.action.view
+
+        - content.code.copy
+        - content.code.annotate
+
+        - content.tooltips
+
+
+extra:
+    alternate:
+        - name: English
+          link: /en/ 
+          lang: en
+        - name: 中文
+          link: /zh/
+          lang: zh
+
+    homepage: /
+
+    #consent:
+    #    title: cookie
+    #    description:    >-
+    #        sdd
+    #    cookies:
+    #        analytics:
+    #            github
+
+
+    social:
+        - icon: fontawesome/brands/github
+          link: 链接url地址
+          name: 标识名
+        - icon: fontawesome/brands/docker
+          link: 链接url地址
+          name: 标识名
+    generator: false
+
+
+plugins:
+    - search:
+        lang:
+            - en
+            - ja
+        # '[\s\-,:!=\[\]]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+        separator: '[\s\-\.]+'
+        jieba_dict: res/dict.txt
+        jieba_dict_user: res/user_dict.txt
+    - search:
+        lang:
+            - en
+        jieba_dict: dict/dict.txt
+        separator: '[\s\-\.]+'
+    # - typeset
+
+    - glightbox
+
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+
+    - attr_list
+    - md_in_html
+    - pymdownx.superfences
+
+    - attr_list
+
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    #- pymdownx.tabbed:
+    #    slugify: !!python/object/apply:pymdownx.slugs.slugify
+    #        kwds:
+    #            case: lower
+
+    # - content.tabs.link
+
+
+    - tables
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_code_format
+    - footnotes
+
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+
+    - attr_list
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+    - attr_list
+    - md_in_html
+
+    - def_list
+    - pymdownx.tasklist:
+        custom_checkbox: true
+
+    - pymdownx.arithmatex:
+        generic: true
+
+    - abbr
+    - attr_list
+    - pymdownx.snippets
+    - pymdownx.snippets:
+        auto_append:
+            - includes/abbr.md
+
