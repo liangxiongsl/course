@@ -3,6 +3,10 @@
 
 [软件项目管理案例教程（第三版）课后习题及答案](https://blog.csdn.net/weixin_44358097/article/details/105874288)
 
+[软件项目管理案例教程第四版答案](https://blog.csdn.net/m0_48869571/article/details/121557116)
+
+
+
 !!! note "1. 项目管理知识体系(PMBOK)包括哪10个知识领域？"
 	0. 即：整合，范围，时间，成本，质量，资源，沟通，风险，采购，相关方
 	1. 项目整合管理（Project Integration Management）
