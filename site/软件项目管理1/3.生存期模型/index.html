@@ -356,8 +356,38 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
+<a class="md-nav__link" href="../1.%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B/">
+        1.项目初始
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2.%E9%A1%B9%E7%9B%AE%E8%AE%A1%E5%88%92/">
+        2.项目计划
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../3.%E9%A1%B9%E7%9B%AE%E6%89%A7%E8%A1%8C%E6%8E%A7%E5%88%B6/">
+        3.项目执行控制
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../4.%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9D%9F/">
+        4.项目结束
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../5.%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/">
+        5.项目实践
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../tot/">
         Tot
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../MISC/">
+        MISC
       </a>
 </li>
 <li class="md-nav__item">
@@ -446,11 +476,6 @@
         17.基于敏捷平台的软件项目实践
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../MISC/">
-        MISC
-      </a>
-</li>
 </ul>
 </nav>
 </li>
@@ -470,6 +495,79 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1>3.生存期模型</h1>
+<p>记 LCM 为 生存期模型</p>
+<div class="admonition index">
+<p class="admonition-title">Index</p>
+<ol>
+<li>生存期概述<ol>
+<li>定义<ul>
+<li>LCM 的基本特征：描述开发的主要阶段，定义每一个阶段要完成的主要过程和活动，规范每一个阶段的输入和输出</li>
+</ul>
+</li>
+<li>类型<ul>
+<li>LCM 的 变迁：作坊式 <span class="arithmatex">\(\to\)</span> 过程控制 <span class="arithmatex">\(\to\)</span> 敏捷模型 <span class="arithmatex">\(\to\)</span> DevOps</li>
+<li>LCM 的类型：预测型，适应型（迭代型，增量型，敏捷型），混合型（前 4 种类型的比较图详见 P53）</li>
+<li>预测型：需要提前进行大连的计划工作，然后最后一次性执行（具有连续性）</li>
+<li>迭代型：允许对未完成的工作进行反馈，从而改进和修改改工作</li>
+<li>增量型：向客户提供已完成的，可能立即使用的可交付成果</li>
+<li>敏捷型：具有迭代型和增量型的特征，便于完善工作，频繁交付</li>
+<li>混合型：预测型 和 适应型 的结合</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>预测型 LCM<ol>
+<li>预测型的项目活动：需求分析，设计，实施，测试，交付</li>
+<li>瀑布模型：严格按照顺序自上而下执行；流程，优缺点，适用范围，使用说明</li>
+<li>V 模型：瀑布模型的变种，强调测试的重要性；流程，优缺点，适用范围，使用说明</li>
+</ol>
+</li>
+<li>迭代型 LCM（通过连续的原型或概念验证来改进产品或成果，每个新的原型都能带来相关方新的反馈和团队见解）<ol>
+<li>迭代型模型通常指 <strong>原型模型</strong></li>
+<li>原型模型：在需求阶段对快速构建一部分系统，并根据用户的反馈意见改进原型以致其能被客户接受；优缺点，适用范围，使用说明</li>
+</ol>
+</li>
+<li>增量型 LCM（将项目需求分段，使其成为一系列增量产品，每一增量可以分别实施，每一增量包括：分析，设计，实施，测试，交付）<ol>
+<li>增量型模型：优缺点，适用范围，使用说明</li>
+<li>渐进式阶段模型：特殊的增量型模型，每个增量都是一个比较完整的系统；优缺点</li>
+</ol>
+</li>
+<li>敏捷性 LCM<ol>
+<li>解释：<ol>
+<li>为了适应更频繁的需求变更，更频繁地交付项目价值，敏捷生存期模型结合了迭代和增量的方法</li>
+<li>增量交付的 2 种方法：基于迭代（以迭代形式交付完整的功能），基于流程（从待办事项列表中提取若干功能开始工作）</li>
+</ol>
+</li>
+<li>Scrum：有明确的更高的目标，具有高度自主权，核心是迭代和增量，紧密地沟通合作，以高度弹性解决各种挑战，确保每天，每个阶段都有明确的推进（团队角色：负责人，主管，开发团队；工件：增量，产品待办事项列表，Sprint待办事项列表，燃尽图；活动：产品待办事项列表梳理，Sprint计划会议，迭代式软件开发，每日站立会议，持续集成，Sprint平身会议，Sprint回顾会议）</li>
+<li>XP(eXtreme Programming，极限编程)：针对业务需求和软件开发实践的规则，它的作用在于将二者集中在共同目标上，高效并稳妥地推进开发；3 个层面的 13 个敏捷实践：<ol>
+<li>整体实践：统一团队，策划游戏，小型发布，客户验收</li>
+<li>开发团队实践：代码集体所有，编码标准/规约，恒定速度(40小时工作)，系统隐喻，持续集成</li>
+<li>开发者实践：简单设计，结对编程，测试驱动开发，重构</li>
+</ol>
+</li>
+<li>OpenUP：利益干系人领域，项目团队领域，个人领域</li>
+<li>看板方法：看板可以使项目管理实现最大的可视化，并且可以对研发过程进行管理，记录下用户故事研发过程中的细节和历程（不同的任务用不同颜色的卡片）</li>
+<li>Scrumban 方法：Scrum到看板之间的过渡方法</li>
+<li>精益模型(lean)：侧重于提高过程的效率；拉式系统，价值流图</li>
+<li>持续交付：是经典的敏捷开发方法（如Scrum，XP）的自然延伸</li>
+<li><strong>DevOps(development operations)</strong>：是一组过程，方法，系统的统称，用于促进开发（应用程序/软件工程），技术运营，质量保证(QA)</li>
+<li>其他敏捷模型：功能驱动开发，动态系统开发，SoS</li>
+</ol>
+</li>
+<li>混合型生存期模型（把几种不同模型组合而成的模型）<ol>
+<li>先敏捷后预测型 综合方法：</li>
+<li>敏捷和预测 综合方法：</li>
+<li>以预测法为主，敏捷方法为辅的方法：</li>
+<li>以敏捷方法为主，预测法为辅的方法：</li>
+</ol>
+</li>
+<li>案例（“医疗信息商务平台”，详见 p71）：<ul>
+<li>采用 Scrum 敏捷生存期模型，分为 4 个冲刺迭代(Sprint)</li>
+<li>生存期：需求分析，系统设计，项目规划，迭代 n 设计，迭代 n 开发，集成测试，确认测试，产品提交</li>
+</ul>
+</li>
+</ol>
+</div>
 </article>
 </div>
 </div>
