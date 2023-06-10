@@ -1,3 +1,40 @@
+
+!!! 要求
+
+立项材料：**6.16之前交给团支书**
+
+
+1. [返家乡暑期社会实践报名流程](file:///D:/qq_files/download/2023%E5%B9%B4%E2%80%9C%E8%BF%94%E5%AE%B6%E4%B9%A1%E2%80%9D%E6%9A%91%E6%9C%9F%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E5%B2%97%E4%BD%8D%E6%8A%A5%E5%90%8D%E6%B5%81%E7%A8%8B%20(1).pdf)
+2. [优秀大学生赴试点村（社区）挂职锻炼项目（可纳入实践认定）](https://tw.cwxu.edu.cn/info/1164/2119.htm)
+3. [2023年学校暑期社会实践学院介绍信](file:///D:/qq_files/download/%E9%99%84%E4%BB%B68%EF%BC%9A2023%E5%B9%B4%E5%AD%A6%E6%A0%A1%E6%9A%91%E6%9C%9F%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5%E4%BB%8B%E7%BB%8D%E4%BF%A1.pdf)
+4. [《关于开展2023年我校大学生志愿者暑期文化科技卫生“三下乡”社会实践活动的通知》](https://tw.cwxu.edu.cn/info/1164/2114.htm)
+5. 团队命名：无锡学院+院名+ XXXX小分队
+6. 社会实践的材料需要提交：全部材料务必保存好，**需要单位盖章**
+7. “创青春”微信公众号，中青校园，到梦空间
+
+!!! 记录
+1. 附件[1](https://tw.cwxu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1491699577&wbfileid=12256862)，[2](https://tw.cwxu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1491699577&wbfileid=12256863)：立项
+2. 附件[3](https://tw.cwxu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1491699577&wbfileid=12256881)：校级重点团队名额分配
+3. 附件[4](https://tw.cwxu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1491699577&wbfileid=12256882)，[5](https://tw.cwxu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1491699577&wbfileid=12256883)：校级重点团队申请
+4. 附件[6](https://tw.cwxu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1491699577&wbfileid=12256884)，[7](https://tw.cwxu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1491699577&wbfileid=12256885)：结题书
+5. 附件[8](https://tw.cwxu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1491699577&wbfileid=12256886)：介绍信；附件[9](https://tw.cwxu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1491699577&wbfileid=12256887)/[10](https://tw.cwxu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1491699577&wbfileid=12256888)：旗帜
+6. 需求
+	- 附件7的“视频”：3-5分钟($\le$ 200M；720p)
+	- 附件7的“暑期社会实践调研报告”：2000字，30%查重率
+	- 附件7的“活动图片”：8张
+	- 附件7的日记：不少于300字
+
+- [大学生暑假社会实践报告（万能版本）](https://zhuanlan.zhihu.com/p/405665810)
+- [大学生暑假社会实践报告(万能版本)](https://zhuanlan.zhihu.com/p/468817356)
+
+[通知](https://tw.cwxu.edu.cn/info/1164/2114.htm)
+
+
+!!! question
+	1. 怎么报名：“创青春”公众号？中青校园？到梦空间？
+	2. 
+
+
 [思维导图](https://mm.edrawsoft.cn/wx.html?work_id=17421)
 
 !!! index
@@ -19,7 +56,7 @@ gitGraph
 branch sd
 commit id:"1921 新民主主义"
 commit id:"1949 新中国成立"
-commit id:"1978 改革开放"
+commit id:"1978 改革开放"**
 commit id:"习近平新时代中国特色社会主义"
 ```
 
